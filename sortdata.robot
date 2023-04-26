@@ -136,6 +136,7 @@ Example 1
     SORTING DATA EX1    ${locator_header_email_ex1}        ${locator_column_email_ex1}
     SORTING NUMBER      ${locator_header_due_ex1}          ${locator_column_due_ex1}
     SORTING DATA EX1    ${locator_header_website_ex1}      ${locator_column_website_ex1}
+    Close Browser
 
 Example 2
     # Set Selenium Speed    1s
@@ -146,6 +147,5 @@ Example 2
     SORTING DATA EX2    ${locator_column_email_ex2}
     SORTING NUMBER      ${locator_header_due_ex2}          ${locator_column_due_ex2}   
     SORTING DATA EX2    ${locator_column_website_ex2}
-
     Close Browser
 
