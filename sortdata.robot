@@ -131,8 +131,6 @@ Example 1
     # Set Selenium Speed    1s
     OPEN WEB BROWSER
     Wait Until Element Is Visible    id = table1
-    Wait Until Element Is Visible    id = table2
-
     SORTING DATA EX1    ${locator_header_lastname_ex1}     ${locator_column_lastname_ex1}
     SORTING DATA EX1    ${locator_header_firstname_ex1}    ${locator_column_firstname_ex1}
     SORTING DATA EX1    ${locator_header_email_ex1}        ${locator_column_email_ex1}
@@ -141,6 +139,8 @@ Example 1
 
 Example 2
     # Set Selenium Speed    1s
+    OPEN WEB BROWSER
+    Wait Until Element Is Visible    id = table2
     SORTING DATA EX2    ${locator_column_lastname_ex2}
     SORTING DATA EX2    ${locator_column_firstname_ex2}
     SORTING DATA EX2    ${locator_column_email_ex2}
